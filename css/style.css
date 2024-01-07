@@ -9,6 +9,7 @@
     font-size: 25px;
     color: black;
 }
+
 .menu__list {
     font-family: Inter;
     font-weight: 500;
@@ -16,6 +17,7 @@
     color: black;
     line-height: normal;
 }
+
 .header__container {
     height: 43px;
     width: 1288px;
@@ -27,20 +29,30 @@
     margin-left: 63px;
     margin-right: 89px;
 }
+
 .menu__list {
     display: flex;
-    gap: 60px;       ;
+    gap: 60px;
+    ;
 }
+
 a {
     text-decoration: none;
     color: #000;
 }
+
 [class*="__container"] {
     max-width: 1440px;
 }
+
 #purple a {
     color: #7319CD;
 }
+
+.menu__item a:hover {
+    text-decoration: underline;
+}
+
 .text-image__container {
     display: flex;
     justify-content: space-between;
@@ -57,6 +69,7 @@ a {
     margin-left: 112px;
     align-items: center;
 }
+
 .autor__name {
     height: 36px;
     width: 250px;
@@ -67,7 +80,8 @@ a {
     margin-left: 112px;
     color: #7319CD;
     align-items: center;
-} 
+}
+
 .profession {
     height: 216px;
     width: 537px;
@@ -79,8 +93,9 @@ a {
     color: #000;
     align-items: center;
 }
+
 .text {
-    font-family: Inter; 
+    font-family: Inter;
     font-weight: 400;
     font-size: 23px;
     width: 657px;
@@ -88,7 +103,8 @@ a {
     align-items: center;
     margin-top: 20px;
     margin-left: 109px;
-} 
+}
+
 .image {
     margin-top: 104px;
     margin-right: 107px;
@@ -97,9 +113,11 @@ a {
     border: 1px solid #7319CD;
     box-shadow: 6px 5px 29px rgba(115, 25, 205, 0.5);
     transform: rotate(-0.17deg);
-    border-radius: 170px 170px 140px 90px;
-} 
-.button1, .button2{
+    border-radius: 170px 170px 170px 170px;
+}
+
+.button1,
+.button2 {
     width: 197px;
     height: 60px;
     flex-shrink: 0;
@@ -110,7 +128,9 @@ a {
     margin-top: 104px;
     margin-left: 112px;
 }
-.button1, .button2 {
+
+.button1,
+.button2 {
     color: #000;
     font-family: Inter;
     font-size: 21px;
@@ -118,11 +138,13 @@ a {
     font-weight: 400;
     line-height: normal;
 }
+
 .button1:hover,
 .button2:hover {
-    background-color: #7319CD; 
+    background-color: #7319CD;
     color: #FFF;
 }
+
 .images {
     display: flex;
     width: 177px;
@@ -132,7 +154,8 @@ a {
     margin-left: 112px;
     margin-top: 65px;
 }
-.image4 img{
+
+.image4 img {
     width: 48px;
     height: 48px;
 }
